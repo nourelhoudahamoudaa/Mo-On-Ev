@@ -16,25 +16,36 @@
 
 
 ### 5) Modules Categorization & Distribution Evaluation
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/6f3839e8-5c88-4fd8-8f3c-84a3561185fa)
 
 
 ### 6) Modules Structure Evaluation
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/d485d021-54f8-48ed-8c2f-33bfdca847dd)
 
 
 ### 7) Modules Richness Evaluation
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/3f62b958-d572-4af6-84db-8829fa6650ab)
 
 
 ### 8) Logical Criteria Evaluation
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/5c50b958-fa59-4348-ab5f-8c661aad85ff)
 
 
 ### 9) Modules Relatedness Evaluation
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/d65a2131-82af-4925-8476-be2a13380ad7)
 
 
 ### 10) Modules Quality Evaluation
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/bf7de737-b4d3-4997-877c-71d931c6e8c0)
 
 
 ### 9) Test Use Case
+#### 9.1)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/b2991448-c51c-4a5b-8ad4-59dfc1dfc8fe)
+#### 9.2)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/1cce83bc-3655-4d0d-8a29-31d2b1f66f7e)
 
+#### 9.3)
 
 ### 10) Get Synthesis Report
 
