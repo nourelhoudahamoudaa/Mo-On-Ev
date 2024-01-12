@@ -50,3 +50,6 @@
 
 ### 10) Get Synthesis Report
 
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/02adc6a1-bb39-402b-b44b-1da31dd19696)
+
+
