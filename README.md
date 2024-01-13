@@ -6,7 +6,7 @@
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/1b0b5761-cc79-47a5-aaaa-d60d7118285a)
 
 
-## Modular-Ontology-Evaluation-MoOnEv
+## MoOnEv Interfaces :
 ### 1) Start
 ![startppl](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/e225e070-b40d-4d61-af55-bb54a9d9b381)
 
