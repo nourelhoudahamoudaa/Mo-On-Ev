@@ -1,4 +1,11 @@
 # Modular Ontology Evaluation MoOnEv
+
+  Modular Ontology Evaluation (MoOnEv) based on the OMEVA metrics list [Gobin-Rahimbux, B. 2022] and SPARQL queries for ontology evaluation and valide the SWRL rules using use case testing.  
+  
+- OMEVA metrics list: Composed from 13 criteria proposed by [Khan, Z.C. 2016] and an additional 22 criteria were identified. The list of criteria is classified into eight categories, as shown in table :
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/1b0b5761-cc79-47a5-aaaa-d60d7118285a)
+
+
 ## Modular-Ontology-Evaluation-MoOnEv
 ### 1) Start
 ![startppl](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/e225e070-b40d-4d61-af55-bb54a9d9b381)
