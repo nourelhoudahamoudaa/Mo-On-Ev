@@ -14,18 +14,26 @@
 ![startppl](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/e225e070-b40d-4d61-af55-bb54a9d9b381)
 
 ### 2) Select Ontology Modules
+To streamline the process of tool extraction for module selection, we recommend including the name and IRI of each module in this interface.
+
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/52bbb1d8-36a5-459b-b919-07c92a0f32b0)
 
 
 ### 3) Naming Convention
+  The Naming criteria are employed to verify the utilization of naming conventions and ensure name consistency. The metrics in this context indicate the presence of human-readable descriptions within the ontology, which is facilitated by the inclusion of labels and definitions in three languages.
+  
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/daadc899-cfc3-4e8b-a9cc-aac9220896b1)
 
 
 ### 4) Modules Syntax Evaluation
+A higher Syntactic Quality score is desirable as it indicates a well-structured ontology that adheres to language specifications and best practices, making it more usable and maintainable for ontology users and developers.
+
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/fe50d312-105a-455f-95a3-076ba5523969)
 
 
 ### 5) Modules Categorization & Distribution Evaluation
+Categorization and Distribution Evaluation assesses how effectively modules within an ontology are organized and distributed. This evaluation ensures efficient ontology performance, ease of maintenance, and scalability.
+
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/6f3839e8-5c88-4fd8-8f3c-84a3561185fa)
 
 
