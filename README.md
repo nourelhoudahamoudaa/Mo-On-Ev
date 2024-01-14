@@ -16,37 +16,39 @@
 ### 2) Select Ontology Modules
 To streamline the process of tool extraction for module selection, we recommend including the name and IRI of each module in this interface.
 
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/52bbb1d8-36a5-459b-b919-07c92a0f32b0)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/4cb42400-60f4-4b24-a2f5-4fb1615beaf6)
+
 
 
 ### 3) Naming Convention
   The Naming criteria are employed to verify the utilization of naming conventions and ensure name consistency. The metrics in this context indicate the presence of human-readable descriptions within the ontology, which is facilitated by the inclusion of labels and definitions in three languages.
   
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/daadc899-cfc3-4e8b-a9cc-aac9220896b1)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/e1a7ea92-1525-4b75-b918-db4a729d0068)
+
 
 
 ### 4) Modules Syntax Evaluation
 A higher Syntactic Quality score is desirable as it indicates a well-structured ontology that adheres to language specifications and best practices, making it more usable and maintainable for ontology users and developers.
 
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/fe50d312-105a-455f-95a3-076ba5523969)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/15cd9cd9-3ae5-4f0f-948f-a65d4f006b71)
 
 
 ### 5) Modules Categorization & Distribution Evaluation
 Categorization and Distribution Evaluation assesses how effectively modules within an ontology are organized and distributed. This evaluation ensures efficient ontology performance, ease of maintenance, and scalability.
 
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/6f3839e8-5c88-4fd8-8f3c-84a3561185fa)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/19203589-5bef-4a00-b122-f92ebe8a15c3)
 
 
 ### 6) Modules Structure Evaluation
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/d485d021-54f8-48ed-8c2f-33bfdca847dd)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/6e33f314-dcd1-4050-86fa-3e07f6963198)
 
 
 ### 7) Modules Richness Evaluation
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/3f62b958-d572-4af6-84db-8829fa6650ab)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/f8e66ee5-e897-45e1-9fb0-b455c49c72cc)
 
 
 ### 8) Logical Criteria Evaluation
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/5c50b958-fa59-4348-ab5f-8c661aad85ff)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/41a9777c-b379-4b15-8eb6-3ab1b2efb667)
 
 
 ### 9) Modules Relatedness Evaluation
