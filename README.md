@@ -58,7 +58,7 @@ Categorization and Distribution Evaluation assesses how effectively modules with
 - #### Relationship Distribution:
   Ensures that relationships are appropriately assigned to relevant modules, avoiding excessive cross-module dependencies and promoting modularity: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/b65481ca-df8d-4496-b805-3c1277e06bac).
 - #### Module Distribution:
-- how various components (classes, attributes, and relation-ships) are distributed across different modules of the ontology: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/0ee83176-738d-4f71-b1b8-142ea5aa0fb3).
+ how various components (classes, attributes, and relation-ships) are distributed across different modules of the ontology: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/0ee83176-738d-4f71-b1b8-142ea5aa0fb3).
 
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/19203589-5bef-4a00-b122-f92ebe8a15c3)
 
