@@ -1,10 +1,10 @@
 # Modular Ontology Evaluation MoOnEv
 
-This implementation aligns with our paper titled "MoonCAB ontology: enrichment using SWRL rules and evaluation with MoOnEv, a new tool for modular ontologies evaluation," which is part of our PhD research.
+This implementation aligns with our paper titled "MoonCAB ontology: enrichment using SWRL rules and evaluation with MoOnEv, a new tool for modular ontologies evaluation".
 
-As there is currently no existing application capable of measuring all ontology evaluation metrics and testing ues cases to evaluate and validate a modular ontology, we have created a novel desktop tool known as Modular Ontology Evaluation (MoOnEv)on Python 3, Tkinter, rdflib, and owlready2. MoOnEv relies on the OMEVA metrics list [Gobin-Rahimbux, B. 2022] (13 criteria proposed by [Khan, Z.C. 2016] and an additional 22 criteria were identified by them), and utilizes SPARQL queries for ontology evaluation, validating SWRL rules through use case testing.
+As there is currently no existing application capable of measuring all ontology evaluation metrics and testing ues cases to evaluate and validate a modular ontology, we have created a novel desktop tool known as Modular Ontology Evaluation (MoOnEv) with Python 3, Tkinter, rdflib, and owlready2. MoOnEv relies on the OMEVA metrics list [Gobin-Rahimbux, B. 2022] (13 criteria proposed by [Khan, Z.C. 2016] and an additional 22 criteria were identified by them), and utilizes SPARQL queries for ontology evaluation, validating SWRL rules through use case testing.
 
-  ### ==> We displays in the images shown below the results of evaluation and validation MoOnEv tool for MoonCAB ontology
+  ### ==> We displays in the images shown below the results of evaluation and validation MoOnEv tool for our MoonCAB ontology.
 - The repository includes the output report of evaluation and validation MoonCAB ontology with MoOnEv tool.
 ## MoOnEv Interfaces :
 ### 1) Get start
