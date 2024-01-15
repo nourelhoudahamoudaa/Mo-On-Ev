@@ -39,7 +39,8 @@ Focuses on assessing the syntactic correctness and adherence to language rules: 
    Evaluates the ontology's expressiveness and completeness in representing the domain of interest:  ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/359743fb-3e5a-450d-a375-79098a1d7d34)
 , where Y: Total syntactical features available in the ontology language and Z: Be the total syntactical features used in the ontology.
 - #### Syntactic Quality:
-To avoid potential issues that may arise during integration, reasoning, or application of the ontology in various domains: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/cad5e5be-e15e-40a8-9a4d-7b1dabe0dcde)
+To avoid potential issues that may arise during integration, reasoning, or application of the ontology in various domains: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/fa80ed45-3340-4697-94db-7262bfca48ca) .
+
 
 
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/15cd9cd9-3ae5-4f0f-948f-a65d4f006b71)
