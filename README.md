@@ -33,8 +33,7 @@ Focuses on assessing the syntactic correctness and adherence to language rules: 
 : Total breached rules and ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/5ef40f63-05ea-43ed-a1ee-f9fe2e0b1cfd)
 : Number of statements in the ontology.
 - #### Syntax Richness:
-   Evaluates the ontology's expressiveness and completeness in representing the domain of interest:  ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/359743fb-3e5a-450d-a375-79098a1d7d34)
-, where Y: Total syntactical features available in the ontology language and Z: Be the total syntactical features used in the ontology.
+   Evaluates the ontology's expressiveness and completeness in representing the domain of interest:  ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/359743fb-3e5a-450d-a375-79098a1d7d34), where Y: Total syntactical features available in the ontology language and Z: Be the total syntactical features used in the ontology.
 - #### Syntactic Quality:
 To avoid potential issues that may arise during integration, reasoning, or application of the ontology in various domains: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/fa80ed45-3340-4697-94db-7262bfca48ca) .
 
@@ -55,7 +54,7 @@ Categorization and Distribution Evaluation assesses how effectively modules with
 - #### Relationship Distribution:
   Ensures that relationships are appropriately assigned to relevant modules, avoiding excessive cross-module dependencies and promoting modularity: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/b65481ca-df8d-4496-b805-3c1277e06bac).
 - #### Module Distribution:
- how various components (classes, attributes, and relation-ships) are distributed across different modules of the ontology: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/0ee83176-738d-4f71-b1b8-142ea5aa0fb3).
+ How various components (classes, attributes, and relation-ships) are distributed across different modules of the ontology: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/0ee83176-738d-4f71-b1b8-142ea5aa0fb3).
 
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/19203589-5bef-4a00-b122-f92ebe8a15c3)
 
@@ -71,28 +70,32 @@ Indicates the proportion of the original ontology covered by the module: ![image
 .  
 
 
-- #### Atomic Size:  Helps identify the complexity of tightly connected axioms within the  
-module: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/7a67ec6c-01eb-4ca2-956d-c81deec86007)
-, where Atom: Group of interdependent axioms.   
+- #### Atomic Size:
+Helps identify the complexity of tightly connected axioms within the module: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/7a67ec6c-01eb-4ca2-956d-c81deec86007), where Atom: Group of interdependent axioms.   
 
 - #### Depth of Module:
-  measures the hierarchical depth of the ontology within the module:  DoM=max(Depth(c), $\forall$c $\in$ O).
+  Measures the hierarchical depth of the ontology within the module: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/d78bd00d-1b4f-45d8-80ae-7d8c782e33d2)
   
 - #### Average Depth on inheritance Tree:
-  quantifies the average depth of the class hierarchy within the module:   DoMavg=$\sum$(Depth( c),$\forall$c$\in$O)/C.
+  Quantifies the average depth of the class hierarchy within the module:  ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/63dca925-c041-4fbf-952d-fb529d3a610b)
+
   
 - #### Breadth of Module:
   Provides insights into the diversity of concepts represented by understanding the number of sibling classes within the module.
   
 - #### Module Density:
-  evaluates the ontology's density by assessing how well-connected the entities: Class Density: cd(c) = $\sum$^4_{i=1}W_{i}|S_{i}|, CDM = $\frac{1}{n}$ $\sum$^n_{i=1}cd(c),
-  Edge Node Ration: ENR = $\frac{|E|}{|C|}$,   where E: edges and C: classes.
+  Evaluates the ontology's density by assessing how well-connected the entities:
+  - Class Density: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/0b04badb-8bd7-45d0-8129-d35ce215fcee)
+  - Edge Node Ration: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/20b9ffda-d358-4970-8c66-4541245ad862), where E: edges and C: classes.
   
 - #### Overall Complexity of Module:
-  is introduced as a means to quantitatively measure the complexity of the module:
- - Tree Impurity:  TIM = |H|-|C|+1,
- - Entropy of ontology Module:  EoM = - $\sum_{p(i)}$log_{2}p(i)
- - Overall complexity: 
+  Is introduced as a means to quantitatively measure the complexity of the module:
+ - Tree Impurity:![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/8790e4f9-cc54-4931-b784-4c662f933d93)
+
+ - Entropy of ontology Module:  ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/ebb564c5-4ffe-45e0-a618-419d3427b5b6),
+ - Overall complexity: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/e4059d01-3500-4e2c-b2e1-b0c3d4653c8a)
+
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/be37af64-6310-4f3c-bd50-7b6c0cce2e2d)
 
 
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/6e33f314-dcd1-4050-86fa-3e07f6963198)
