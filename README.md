@@ -101,6 +101,15 @@ Reflects the use of non-inheritance relationships, enhancing ontology interconne
 
 
 ### 8) Logical Criteria Evaluation
+
+- ##### Correctness of Module: 
+Measures how well the module aligns with the source ontology: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/6fbdcc23-c167-4ed6-a13b-09a32265e5ea)
+
+- ##### Completeness of Module: 
+Assesses whether the module’s ax- ioms are semantically equivalent to those in the source ontology: 
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/18e312e8-f6dc-4239-a1db-7e2b3250de2e)
+
+
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/41a9777c-b379-4b15-8eb6-3ab1b2efb667)
 
 
