@@ -32,6 +32,10 @@ To streamline the process of tool extraction for module selection, we recommend 
 ### 4) Modules Syntax Evaluation
 A higher Syntactic Quality score is desirable as it indicates a well-structured ontology that adheres to language specifications and best practices, making it more usable and maintainable for ontology users and developers.
 
+- \textbf{Lawfulness:} \footnotesize Focuses on assessing the syntactic correctness and adherence to language rules: \footnotesize  S$_L$ = X$_b$ / N$_s$,  \scriptsize where X$_b$: Total breached rules and N$_s$: Number of statements in the ontology. \\
+- \textbf{Syntax Richness:} \footnotesize  Evaluates the ontology's expressiveness and completeness in representing the domain of interest:  \footnotesize  S$_R$ = Z/Y,  \scriptsize where Y: Total syntactical features available in the ontology language and Z: Be the total syntactical features used in the ontology.
+- \textbf{Syntactic Quality:} \footnotesize To avoid potential issues that may arise during integration, reasoning, or application of the ontology in various domains:  S$_Q$ = b$_1$.S$_L$ + b$_2$.S$_R$ 
+
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/15cd9cd9-3ae5-4f0f-948f-a65d4f006b71)
 
 
