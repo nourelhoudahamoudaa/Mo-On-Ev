@@ -36,9 +36,11 @@ Focuses on assessing the syntactic correctness and adherence to language rules: 
 : Total breached rules and ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/5ef40f63-05ea-43ed-a1ee-f9fe2e0b1cfd)
 : Number of statements in the ontology.
 - #### Syntax Richness:
-   Evaluates the ontology's expressiveness and completeness in representing the domain of interest:  \footnotesize  S$_R$ = Z/Y,  \scriptsize where Y: Total syntactical features available in the ontology language and Z: Be the total syntactical features used in the ontology.
+   Evaluates the ontology's expressiveness and completeness in representing the domain of interest:  ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/359743fb-3e5a-450d-a375-79098a1d7d34)
+, where Y: Total syntactical features available in the ontology language and Z: Be the total syntactical features used in the ontology.
 - #### Syntactic Quality:
-To avoid potential issues that may arise during integration, reasoning, or application of the ontology in various domains:  S$_Q$ = b$_1$.S$_L$ + b$_2$.S$_R$ 
+To avoid potential issues that may arise during integration, reasoning, or application of the ontology in various domains: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/cad5e5be-e15e-40a8-9a4d-7b1dabe0dcde)
+
 
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/15cd9cd9-3ae5-4f0f-948f-a65d4f006b71)
 
