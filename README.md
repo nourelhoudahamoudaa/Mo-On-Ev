@@ -102,22 +102,49 @@ Reflects the use of non-inheritance relationships, enhancing ontology interconne
 
 ### 8) Logical Criteria Evaluation
 
-- ##### Correctness of Module: 
-Measures how well the module aligns with the source ontology: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/6fbdcc23-c167-4ed6-a13b-09a32265e5ea)
+- #### Correctness of Module: 
+Measures how well the module aligns with the source ontology: 
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/6fbdcc23-c167-4ed6-a13b-09a32265e5ea)
 
-- ##### Completeness of Module: 
+- #### Completeness of Module: 
 Assesses whether the module’s ax- ioms are semantically equivalent to those in the source ontology: 
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/18e312e8-f6dc-4239-a1db-7e2b3250de2e)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/b4c69df7-3ab7-41fb-8e6e-47daebc72a6f)
 
 
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/41a9777c-b379-4b15-8eb6-3ab1b2efb667)
 
 
 ### 9) Modules Relatedness Evaluation
+This category evaluates relationships between modules. It includes metrics like Inter-Module Distance and Intra-Module Distance, measuring the number of modules required and the distance between entities within a module. Additional criteria, such as Relative Intra-Module Distance, Encapsulation, Redundancy, and Independence, provide insights into the connections, duplication, and self-sufficiency of modules.
+
+- #### Inter-module Distance:
+Suggests strong interconnections and potential dependencies among entities that frequently appear together in different modules.
+- #### Intra-module Distance:
+Indicates high cohesion and relatedness among entities that frequently appear together within the same module.
+- #### Relative Intra-module Distance:
+Highlights potential structural differences or adjustments between the module and the source based on significant differences in intra-module distances.
+- #### Encapsulation:
+Evaluates the degree of sharing and reuse of axioms between the module and other interconnected modules.
+- #### Redundancy:
+Identifies instances of duplicated information in multiple modules, promoting efficiency and consistency by reducing redundancy. - Independence: Assesses the module’s self-sufficiency and potential for standalone use in various contexts, enhancing reusability and flexibility.
+
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/d65a2131-82af-4925-8476-be2a13380ad7)
 
 
 ### 10) Modules Quality Evaluation
+These metrics assesses ontology modules through Precision and Recall for taxonomical relations alignment, Cohesion for interrelation degree, and Coupling, examining disconnected classes. Module Overall Quality considers size and redundancy indicators for a comprehensive evaluation of module structure.
+
+- #### Precision:
+Ensures that the module accurately captures hierarchical relationships from the parent ontology, avoiding any additional or conflicting relationships.
+- #### Recall:
+Ensures that the module includes all the necessary information and concepts from the parent ontology, leaving no gaps or omissions.
+- #### Module cohesion:
+High cohesion indicates that the entities in the module are closely related, forming a coherent and well-organized set of knowledge.
+- #### Module Coupling:
+Metrics like the Number of Separated Hierarchical Relations and Non-Hierarchical Relations quantify the extent of coupling in the module.
+- #### Module Overall Quality:
+Size indicator assesses the module’s size, while the redundancy indicator identifies duplicated information in the module.
+
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/bf7de737-b4d3-4997-877c-71d931c6e8c0)
 
 
