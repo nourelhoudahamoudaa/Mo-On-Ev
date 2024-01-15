@@ -4,15 +4,12 @@ This implementation follows the our paper "MoonCAB ontology: enrichment using SW
 
 As there is currently no existing application capable of measuring all ontology evaluation metrics, we have created a novel desktop tool known as Modular Ontology Evaluation (MoOnEv).on Python 3, Tkinter, rdflib, and owlready2. MoOnEv relies on the OMEVA metrics list [Gobin-Rahimbux, B. 2022] and utilizes SPARQL queries for ontology evaluation, validating SWRL rules through use case testing.
   
-- OMEVA metrics list: Composed from 13 criteria proposed by [Khan, Z.C. 2016] and an additional 22 criteria were identified by [Gobin-Rahimbux, B. 2022]. The list of criteria is classified into eight categories, as shown in table :
-
-
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/648e00fa-ce69-43cd-8e74-ebc5019cad87)
-
-
+- OMEVA metrics list: Composed from 13 criteria proposed by [Khan, Z.C. 2016] and an additional 22 criteria were identified by [Gobin-Rahimbux, B. 2022].
+- The repository includes the output report of this tool.
 
 ## MoOnEv Interfaces :
-### 1) Start
+### 1) Get start
+In the initial interface, the easiest way to begin is by selecting the ontology file with a '.owl' extension.
 ![startppl](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/e225e070-b40d-4d61-af55-bb54a9d9b381)
 
 ### 2) Select Ontology Modules
