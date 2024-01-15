@@ -49,6 +49,17 @@ To avoid potential issues that may arise during integration, reasoning, or appli
 ### 5) Modules Categorization & Distribution Evaluation
 Categorization and Distribution Evaluation assesses how effectively modules within an ontology are organized and distributed. This evaluation ensures efficient ontology performance, ease of maintenance, and scalability.
 
+- #### Class Distribution:
+  Checks if related classes are grouped together within the same module and if there is a balanced representation of classes across modules: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/f2758198-7f3f-4003-93cd-0bcffc51319d).
+
+- #### Attribute Distribution:
+  Ensures that properties associated with specific classes are located in relevant modules, promoting clarity and consistency in the ontology’s structure: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/84880013-1597-4262-9735-fcea348147c3).
+
+- #### Relationship Distribution:
+  Ensures that relationships are appropriately assigned to relevant modules, avoiding excessive cross-module dependencies and promoting modularity: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/b65481ca-df8d-4496-b805-3c1277e06bac).
+- #### Module Distribution:
+- how various components (classes, attributes, and relation-ships) are distributed across different modules of the ontology: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/0ee83176-738d-4f71-b1b8-142ea5aa0fb3).
+
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/19203589-5bef-4a00-b122-f92ebe8a15c3)
 
 
