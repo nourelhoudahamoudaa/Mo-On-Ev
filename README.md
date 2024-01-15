@@ -61,6 +61,40 @@ Categorization and Distribution Evaluation assesses how effectively modules with
 
 
 ### 6) Modules Structure Evaluation
+These metrics assess the quantitative and qualitative aspects of module structure, providing a comprehensive evaluation of its composition and complexity.
+ 
+- #### Size of Module:
+Provides a simple measure of the module's content and the amount of knowledge it represents: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/14cd02b0-477a-41b9-8a61-18a31299b5c9), where C: Named class/individuals, P: Its properties 
+
+- #### Relative Size:
+Indicates the proportion of the original ontology covered by the module: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/a53957b1-2ca7-4d82-8b60-0cc369d7e696)
+.  
+
+
+- #### Atomic Size:  Helps identify the complexity of tightly connected axioms within the  
+module: ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/7a67ec6c-01eb-4ca2-956d-c81deec86007)
+, where Atom: Group of interdependent axioms.   
+
+- #### Depth of Module:
+  measures the hierarchical depth of the ontology within the module:  DoM=max(Depth(c), $\forall$c $\in$ O).
+  
+- #### Average Depth on inheritance Tree:
+  quantifies the average depth of the class hierarchy within the module:   DoMavg=$\sum$(Depth( c),$\forall$c$\in$O)/C.
+  
+- #### Breadth of Module:
+  Provides insights into the diversity of concepts represented by understanding the number of sibling classes within the module.
+  
+- #### Module Density:
+  evaluates the ontology's density by assessing how well-connected the entities: Class Density: cd(c) = $\sum$^4_{i=1}W_{i}|S_{i}|, CDM = $\frac{1}{n}$ $\sum$^n_{i=1}cd(c),
+  Edge Node Ration: ENR = $\frac{|E|}{|C|}$,   where E: edges and C: classes.
+  
+- #### Overall Complexity of Module:
+  is introduced as a means to quantitatively measure the complexity of the module:
+ - Tree Impurity:  TIM = |H|-|C|+1,
+ - Entropy of ontology Module:  EoM = - $\sum_{p(i)}$log_{2}p(i)
+ - Overall complexity: 
+
+
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/6e33f314-dcd1-4050-86fa-3e07f6963198)
 
 
