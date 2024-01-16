@@ -126,9 +126,11 @@ Highlights potential structural differences or adjustments between the module an
 - #### Encapsulation:
 Evaluates the degree of sharing and reuse of axioms between the module and other interconnected modules.
 - #### Redundancy:
-Identifies instances of duplicated information in multiple modules, promoting efficiency and consistency by reducing redundancy. - Independence: Assesses the module’s self-sufficiency and potential for standalone use in various contexts, enhancing reusability and flexibility.
+Identifies instances of duplicated information in multiple modules, promoting efficiency and consistency by reducing redundancy. 
+- #### Independence:
+Assesses the module’s self-sufficiency and potential for standalone use in various contexts, enhancing reusability and flexibility.
 
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/d65a2131-82af-4925-8476-be2a13380ad7)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/338adc1c-0395-4fe2-bb4e-94a1f1a6bca9)
 
 
 ### 10) Modules Quality Evaluation
@@ -145,7 +147,7 @@ Metrics like the Number of Separated Hierarchical Relations and Non-Hierarchical
 - #### Module Overall Quality:
 Size indicator assesses the module’s size, while the redundancy indicator identifies duplicated information in the module.
 
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/45c080cd-cba0-4e4a-a860-13bcac9f8990)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/9ad8883a-8342-46dc-846e-28cd619b4e8b)
 
 
 ### 9) Test Use Case
