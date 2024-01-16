@@ -145,7 +145,7 @@ Metrics like the Number of Separated Hierarchical Relations and Non-Hierarchical
 - #### Module Overall Quality:
 Size indicator assesses the module’s size, while the redundancy indicator identifies duplicated information in the module.
 
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/bf7de737-b4d3-4997-877c-71d931c6e8c0)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/45c080cd-cba0-4e4a-a860-13bcac9f8990)
 
 
 ### 9) Test Use Case
