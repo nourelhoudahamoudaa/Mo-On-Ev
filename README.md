@@ -164,6 +164,7 @@ Size indicator assesses the module’s size, while the redundancy indicator iden
 
 
 ### 10) Get Synthesis Report
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/a6b53a12-d779-4f25-8a86-e5449a27ace5)
 
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/02adc6a1-bb39-402b-b44b-1da31dd19696)
 
