@@ -155,9 +155,11 @@ Size indicator assesses the module’s size, while the redundancy indicator iden
 ![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/46d83b30-7716-492d-82f9-d6f0bdd8c801)
 
 #### 9.2) Add properties step
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/1cce83bc-3655-4d0d-8a29-31d2b1f66f7e)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/cee37b4b-ed4f-4eed-a5a9-3bb59261b5b8)
 
 #### 9.3) Apply SWRL rules step
+
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/a86b7e97-3026-44b7-b864-6aa31cc804e0)
 
 
 
