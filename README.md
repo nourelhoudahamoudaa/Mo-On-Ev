@@ -21,7 +21,7 @@ To streamline the process of tool extraction for module selection, we recommend 
 ### 3) Naming Convention
   The Naming criteria are employed to verify the utilization of naming conventions and ensure name consistency. The metrics in this context indicate the presence of human-readable descriptions within the ontology, which is facilitated by the inclusion of labels and definitions in three languages.
   
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/e1a7ea92-1525-4b75-b918-db4a729d0068)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/1b788830-1128-48ef-a0d4-aa763c45609d)
 
 
 
