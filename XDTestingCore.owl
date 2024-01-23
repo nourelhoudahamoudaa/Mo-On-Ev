@@ -1,0 +1,418 @@
+@prefix : <https://w3id.org/polifonia/ON/core/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/polifonia/ON/core/> .
+
+<https://w3id.org/polifonia/ON/core> rdf:type owl:Ontology ;
+                                      owl:versionIRI <https://w3id.org/polifonia/ON/core/0.0.1> ;
+                                      rdfs:comment "This is the ontology Core of the Polifonia ontology network. It represents general-purpose concepts and relations (e.g. place, time, classification, situation) orthogonal to the whole network, and is imported by all the other thematic ontology modules of the network."@en ;
+                                      rdfs:label "Core ontology (Polifonia ontology network)"@en .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/polifonia/ON/core/hasAddress
+:hasAddress rdf:type owl:ObjectProperty ;
+            owl:inverseOf :isAddressOf ;
+            rdfs:domain :PhysicalSite ;
+            rdfs:range :Address ;
+            rdfs:label "has address"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasAddressComponent
+:hasAddressComponent rdf:type owl:ObjectProperty ;
+                     owl:inverseOf :isAddressComponentOf ;
+                     rdfs:domain :Address ;
+                     rdfs:range :AddressComponent ;
+                     rdfs:label "has address component"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasAgent
+:hasAgent rdf:type owl:ObjectProperty ;
+          owl:inverseOf :isAgentOf ;
+          rdfs:domain owl:Thing ;
+          rdfs:range :Agent ;
+          rdfs:label "has agent"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasAgentRole
+:hasAgentRole rdf:type owl:ObjectProperty ;
+              owl:inverseOf :isAgentRoleOf ;
+              rdfs:domain owl:Thing ;
+              rdfs:range :AgentRole ;
+              rdfs:label "has agent role"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasBirthPlace
+:hasBirthPlace rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf :hasPlace ;
+               owl:inverseOf :isBirthPlaceOf ;
+               rdfs:domain :Person ;
+               rdfs:range :Place ;
+               rdfs:label "has birth place"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasCity
+:hasCity rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf :hasAddressComponent ;
+         rdfs:domain :Address ;
+         rdfs:range :City ;
+         rdfs:label "has city"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasCountry
+:hasCountry rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :hasAddressComponent ;
+            rdfs:domain :Address ;
+            rdfs:range :Country ;
+            rdfs:label "has country"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasDistrict
+:hasDistrict rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :hasAddressComponent ;
+             rdfs:domain :Address ;
+             rdfs:range :District ;
+             rdfs:label "has district"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasPart
+:hasPart rdf:type owl:ObjectProperty ;
+         owl:inverseOf :isPartOf ;
+         rdfs:domain owl:Thing ;
+         rdfs:range owl:Thing ;
+         rdfs:label "has part"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasPlace
+:hasPlace rdf:type owl:ObjectProperty ;
+          owl:inverseOf :isPlaceOf ;
+          rdfs:domain owl:Thing ;
+          rdfs:range :Place ;
+          rdfs:label "has place"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasProvince
+:hasProvince rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf :hasAddressComponent ;
+             rdfs:domain :Address ;
+             rdfs:range :Province ;
+             rdfs:label "has province"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasRegion
+:hasRegion rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :hasAddressComponent ;
+           rdfs:domain :Address ;
+           rdfs:range :Region ;
+           rdfs:label "has region"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasRole
+:hasRole rdf:type owl:ObjectProperty ;
+         owl:inverseOf :isRoleOf ;
+         rdfs:domain owl:Thing ;
+         rdfs:range :Role ;
+         rdfs:label "has role"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasStreet
+:hasStreet rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :hasAddressComponent ;
+           rdfs:domain :Address ;
+           rdfs:range :Street ;
+           rdfs:label "has street"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasTimeInterval
+:hasTimeInterval rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :isTimeIntervalOf ;
+                 rdfs:domain owl:Thing ;
+                 rdfs:range :TimeInterval ;
+                 rdfs:label "has time interval"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasTitle
+:hasTitle rdf:type owl:ObjectProperty ;
+          owl:inverseOf :isTitleOf ;
+          rdfs:domain owl:Thing ;
+          rdfs:range :Title ;
+          rdfs:label "has title"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/hasType
+:hasType rdf:type owl:ObjectProperty ;
+         owl:inverseOf :isTypeOf ;
+         rdfs:domain owl:Thing ;
+         rdfs:range :Type ;
+         rdfs:label "has type"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/isAddressComponentOf
+:isAddressComponentOf rdf:type owl:ObjectProperty ;
+                      rdfs:domain :AddressComponent ;
+                      rdfs:range :Address ;
+                      rdfs:label "is address component of"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/isAddressOf
+:isAddressOf rdf:type owl:ObjectProperty ;
+             rdfs:domain :Address ;
+             rdfs:range :PhysicalSite ;
+             rdfs:label "is address of"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/isAgentOf
+:isAgentOf rdf:type owl:ObjectProperty ;
+           rdfs:domain :Agent ;
+           rdfs:range owl:Thing .
+
+
+###  https://w3id.org/polifonia/ON/core/isAgentRoleOf
+:isAgentRoleOf rdf:type owl:ObjectProperty ;
+               rdfs:domain :AgentRole ;
+               rdfs:range owl:Thing ;
+               rdfs:label "is agent role of"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/isBirthPlaceOf
+:isBirthPlaceOf rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :isPlaceOf ;
+                rdfs:domain :Place ;
+                rdfs:range :Person ;
+                rdfs:label "is birth place of"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/isPartOf
+:isPartOf rdf:type owl:ObjectProperty ;
+          rdfs:domain owl:Thing ;
+          rdfs:range owl:Thing ;
+          rdfs:label "is part of"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/isPlaceOf
+:isPlaceOf rdf:type owl:ObjectProperty ;
+           rdfs:domain :Place ;
+           rdfs:range owl:Thing ;
+           rdfs:label "is place of"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/isRoleOf
+:isRoleOf rdf:type owl:ObjectProperty ;
+          rdfs:domain :Role ;
+          rdfs:range owl:Thing ;
+          rdfs:label "is role of"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/isTimeIntervalOf
+:isTimeIntervalOf rdf:type owl:ObjectProperty ;
+                  rdfs:domain :TimeInterval ;
+                  rdfs:range owl:Thing ;
+                  rdfs:label "is time interval of"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/isTitleOf
+:isTitleOf rdf:type owl:ObjectProperty ;
+           rdfs:domain :Title ;
+           rdfs:range owl:Thing ;
+           rdfs:label "is title of"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/isTypeOf
+:isTypeOf rdf:type owl:ObjectProperty ;
+          rdfs:domain :Type ;
+          rdfs:range owl:Thing ;
+          rdfs:label "is type of"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/polifonia/ON/core/endTime
+:endTime rdf:type owl:DatatypeProperty ;
+         rdfs:domain :TimeInterval ;
+         rdfs:range xsd:dateTime ;
+         rdfs:label "end time"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/fullAddress
+:fullAddress rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain :Address ;
+             rdfs:range rdfs:Literal ;
+             rdfs:label "full address"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/postcode
+:postcode rdf:type owl:DatatypeProperty ,
+                   owl:FunctionalProperty ;
+          rdfs:domain :Address ;
+          rdfs:range rdfs:Literal ;
+          rdfs:label "postcode"@en ,
+                     "zipcode"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/startTime
+:startTime rdf:type owl:DatatypeProperty ;
+           rdfs:domain :TimeInterval ;
+           rdfs:range xsd:dateTime ;
+           rdfs:label "start time"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/streetNumber
+:streetNumber rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain :Address ;
+              rdfs:range rdfs:Literal ;
+              rdfs:label "street number"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/polifonia/ON/core/Address
+:Address rdf:type owl:Class ;
+         rdfs:subClassOf :GeographicalFeature ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasAddressComponent ;
+                           owl:someValuesFrom :AddressComponent
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :postcode ;
+                           owl:allValuesFrom rdfs:Literal
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :streetNumber ;
+                           owl:allValuesFrom rdfs:Literal
+                         ] ;
+         rdfs:label "Address"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/AddressComponent
+:AddressComponent rdf:type owl:Class ;
+                  rdfs:label "Address component"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/Agent
+:Agent rdf:type owl:Class ;
+       rdfs:label "Agent"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/AgentRole
+:AgentRole rdf:type owl:Class ;
+           rdfs:label "Agent role"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/City
+:City rdf:type owl:Class ;
+      rdfs:subClassOf :GeographicalFeature ;
+      rdfs:label "City"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/Collection
+:Collection rdf:type owl:Class ;
+            rdfs:label "Collection"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/Country
+:Country rdf:type owl:Class ;
+         rdfs:subClassOf :GeographicalFeature ;
+         rdfs:label "Country"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/District
+:District rdf:type owl:Class ;
+          rdfs:subClassOf :GeographicalFeature ;
+          rdfs:label "District"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/GeographicalFeature
+:GeographicalFeature rdf:type owl:Class ;
+                     rdfs:subClassOf :SpatialObject ;
+                     rdfs:label "Geographical feature"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/Person
+:Person rdf:type owl:Class ;
+        rdfs:subClassOf :Agent ;
+        rdfs:label "Person"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/PhysicalSite
+:PhysicalSite rdf:type owl:Class ;
+              rdfs:subClassOf :GeographicalFeature ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :hasAddress ;
+                                owl:someValuesFrom :Address
+                              ] ;
+              rdfs:comment "This class represents a physical site, that is an area, a structure (e.g. a building) or a group of structures where something was, is or will be located. It is a physical site that situates something."@en ;
+              rdfs:label "Physical site"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/Place
+:Place rdf:type owl:Class ;
+       rdfs:label "Place"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/Province
+:Province rdf:type owl:Class ;
+          rdfs:subClassOf :GeographicalFeature ;
+          rdfs:label "Province"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/Region
+:Region rdf:type owl:Class ;
+        rdfs:subClassOf :GeographicalFeature ;
+        rdfs:label "Region"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/Role
+:Role rdf:type owl:Class ;
+      rdfs:label "Role"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/Situation
+:Situation rdf:type owl:Class ;
+           rdfs:label "Situation"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/SpatialObject
+:SpatialObject rdf:type owl:Class ;
+               rdfs:subClassOf :Place ;
+               rdfs:label "Spatial object"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/Street
+:Street rdf:type owl:Class ;
+        rdfs:subClassOf :GeographicalFeature ;
+        rdfs:label "Street"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/TimeIndexedSituation
+:TimeIndexedSituation rdf:type owl:Class ;
+                      rdfs:subClassOf :Situation ;
+                      rdfs:label "Time indexed situation"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/TimeInterval
+:TimeInterval rdf:type owl:Class ;
+              rdfs:label "Time interval"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/Title
+:Title rdf:type owl:Class ;
+       rdfs:label "Title"@en .
+
+
+###  https://w3id.org/polifonia/ON/core/Type
+:Type rdf:type owl:Class ;
+      rdfs:label "Type"@en .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi

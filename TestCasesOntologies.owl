@@ -1,0 +1,216 @@
+@prefix : <https://w3id.org/OWLunit/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/OWLunit/ontology/> .
+
+<https://w3id.org/OWLunit/ontology/> rdf:type owl:Ontology ;
+                                      dc:description <https://raw.githubusercontent.com/luigi-asprino/owl-unit/main/ontology/owlunitontology.png> ,
+                                                     "This ontology provides a vocabulary for defining test cases for ontologies."@en ;
+                                      dc:title "OWL Unit Ontology"@en ;
+                                      owl:versionInfo "0.2.0" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/description
+dc:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+dc:title rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/OWLunit/ontology/executes
+:executes rdf:type owl:ObjectProperty ;
+          rdfs:domain :TestRun ;
+          rdfs:range :TestCase ;
+          rdfs:comment "It associates a TestRun to the TestCase it refers to."@en ;
+          rdfs:label "executes"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/hasActualResult
+:hasActualResult rdf:type owl:ObjectProperty ;
+                 rdfs:domain :TestRun ;
+                 rdfs:label "has actual result"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/hasExpectedResult
+:hasExpectedResult rdf:type owl:ObjectProperty ;
+                   rdfs:domain :TestCase .
+
+
+###  https://w3id.org/OWLunit/ontology/hasInputData
+:hasInputData rdf:type owl:ObjectProperty ;
+              rdfs:domain :TestCase ;
+              rdfs:comment "It associates a TestCase with the input data of the test."@en ;
+              rdfs:label "has input data"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/hasInputTestDataCategory
+:hasInputTestDataCategory rdf:type owl:ObjectProperty ;
+                          rdfs:domain :TestCase ;
+                          rdfs:range :InputDataCategory ;
+                          rdfs:label "has input test data category"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/hasReasoner
+:hasReasoner rdf:type owl:ObjectProperty ;
+             rdfs:domain :TestCase ;
+             rdfs:range :Reasoner ;
+             rdfs:label "has reasoner"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/hasShapes
+:hasShapes rdf:type owl:ObjectProperty ;
+           rdfs:domain :AnnotationVerification ;
+           rdfs:comment "It links an annotation verification test case with the shapes to be used to assess the annotations of the ontology."@en ;
+           rdfs:label "has shapes"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/hasTestCase
+:hasTestCase rdf:type owl:ObjectProperty ;
+             rdfs:domain :TestSuite ;
+             rdfs:range :TestCase ;
+             rdfs:comment "It associates a TestSuite with its TestCases."@en ;
+             rdfs:label "has test case"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/testsOntology
+:testsOntology rdf:type owl:ObjectProperty ;
+               rdfs:domain :TestCase ;
+               rdfs:range owl:Ontology ;
+               rdfs:label "tests ontology"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/OWLunit/ontology/hasCompetencyQuestion
+:hasCompetencyQuestion rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :CompetencyQuestionVerification ;
+                       rdfs:label "has competency question"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/hasSPARQLQueryUnitTest
+:hasSPARQLQueryUnitTest rdf:type owl:DatatypeProperty ;
+                        rdfs:label "has SPARQL query unit test"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/testDate
+:testDate rdf:type owl:DatatypeProperty ;
+          rdfs:domain :TestRun ;
+          rdfs:range xsd:dateTime ;
+          rdfs:label "test date"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#Ontology
+owl:Ontology rdf:type owl:Class .
+
+
+###  https://w3id.org/OWLunit/ontology/AnnotationVerification
+:AnnotationVerification rdf:type owl:Class ;
+                        rdfs:subClassOf :TestCase ;
+                        rdfs:comment "Annotation Verification tests aim at assessing the annotations of ontology entities. Constraints on annotations can be specified using SHACL."@en ;
+                        rdfs:label "Annotation Verification"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/CompetencyQuestionVerification
+:CompetencyQuestionVerification rdf:type owl:Class ;
+                                rdfs:subClassOf :TestCase ;
+                                rdfs:comment "Competency Question Verification consists in testing whether the ontology vocabulary allows to convert a Competency Question to a SPARQL query."@en ;
+                                rdfs:label "Competency Question Verification"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/ErrorProvocation
+:ErrorProvocation rdf:type owl:Class ;
+                  rdfs:subClassOf :TestCase ;
+                  rdfs:comment "Error provocation is intended to stress the ontology by injecting inconsistent data."@en ;
+                  rdfs:label "Error Provocation"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/InferenceVerification
+:InferenceVerification rdf:type owl:Class ;
+                       rdfs:subClassOf :TestCase ;
+                       rdfs:comment "Inference Verification focuses on checking expected inferences."@en ;
+                       rdfs:label "Inference Verification"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/InputDataCategory
+:InputDataCategory rdf:type owl:Class ;
+                   rdfs:comment "The category of input test data."@en ;
+                   rdfs:label "Input Data Category"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/Reasoner
+:Reasoner rdf:type owl:Class ;
+          rdfs:label "Reasoner"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/TestCase
+:TestCase rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasInputTestDataCategory ;
+                            owl:someValuesFrom :InputDataCategory
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :testsOntology ;
+                            owl:someValuesFrom owl:Ontology
+                          ] ;
+          rdfs:comment "A test case is a specification of the inputs, execution conditions, testing procedure, and expected results that define a single test to be executed to achieve a particular ontology testing objective."@en ;
+          rdfs:label "Test Case"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/TestRun
+:TestRun rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty :executes ;
+                           owl:someValuesFrom :TestCase
+                         ] ;
+         rdfs:comment "A test run keeps the results of an execution of a test case." ;
+         rdfs:label "Test Run"@en .
+
+
+###  https://w3id.org/OWLunit/ontology/TestSuite
+:TestSuite rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasTestCase ;
+                             owl:someValuesFrom :TestCase
+                           ] ;
+           rdfs:comment "A collection of test cases that are intended to be used to test an Ontology."@en ;
+           rdfs:label "Test Suite"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/OWLunit/ontology/HermiT
+:HermiT rdf:type owl:NamedIndividual ,
+                 :Reasoner .
+
+
+###  https://w3id.org/OWLunit/ontology/SPARQLendpoint
+:SPARQLendpoint rdf:type owl:NamedIndividual ,
+                         :InputDataCategory .
+
+
+###  https://w3id.org/OWLunit/ontology/ToyDataset
+:ToyDataset rdf:type owl:NamedIndividual ,
+                     :InputDataCategory .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
