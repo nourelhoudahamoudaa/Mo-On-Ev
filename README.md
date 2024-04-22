@@ -130,7 +130,8 @@ Identifies instances of duplicated information in multiple modules, promoting ef
 - #### Independence:
 Assesses the module’s self-sufficiency and potential for standalone use in various contexts, enhancing reusability and flexibility.
 
-![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/338adc1c-0395-4fe2-bb4e-94a1f1a6bca9)
+![image](https://github.com/nourelhoudahamoudaa/Mo-On-Ev/assets/48714413/aaab9692-b7a3-4274-9f2c-9ff4dfb6bb31)
+
 
 
 ### 10) Modules Quality Evaluation
